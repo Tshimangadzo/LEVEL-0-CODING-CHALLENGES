@@ -56,3 +56,7 @@ Task 0.8
 Make a function to convert any number into hours and minutes. (For example, 71 will become “1 hour, 11 minutes; 133 will become “2 hours, 13 minutes.)
 
 Most people get this question wrong. Make sure you handle singulars and plurals for both hours and minutes.
+Task 0.9
+Write a function that takes in a string and then prints out all the vowels in the string. Make sure it can deal with capital letters and small letters.
+
+For example, Input: "Umuzi", Output: Vowels: u, i.
