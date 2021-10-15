@@ -52,3 +52,7 @@ Please do not write a whole new function. Upgrade your existing function.
 maximum(1,22,3,2)  // this should work
 Task 0.7
 Write a function that takes in a number representing the temperature in Celsius and returns the temperature in Fahrenheit. Write another function that does the opposite (Fahrenheit to Celsius)
+Task 0.8
+Make a function to convert any number into hours and minutes. (For example, 71 will become “1 hour, 11 minutes; 133 will become “2 hours, 13 minutes.)
+
+Most people get this question wrong. Make sure you handle singulars and plurals for both hours and minutes.
