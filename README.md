@@ -30,3 +30,7 @@ Write a function named even_or_odd or evenOrOdd. The name of the function depend
 Your function should take an integer and print in the word “even” or “odd”
 
 eg, if the input is 3 then the output is “odd”. If the input is 4 then the output is “even”
+Task 0.5
+Write a function that takes in three numbers. These numbers represent the lengths of the sides of a triangle. The function should return the area of a triangle.
+
+This might help: https://www.wikihow.com/Calculate-the-Area-of-a-Triangle
