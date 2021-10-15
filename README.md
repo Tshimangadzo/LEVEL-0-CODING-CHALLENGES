@@ -60,3 +60,5 @@ Task 0.9
 Write a function that takes in a string and then prints out all the vowels in the string. Make sure it can deal with capital letters and small letters.
 
 For example, Input: "Umuzi", Output: Vowels: u, i.
+Task 0.10
+Make a function that takes two strings as input, and outputs the common characters/letters that they share. (For example, Input: ‘house’, ‘computers’ . Output: ‘Common letters: o, u, e, s’)
