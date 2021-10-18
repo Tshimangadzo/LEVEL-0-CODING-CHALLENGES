@@ -1,8 +1,8 @@
 function getMaximum(number1, number2, number3, ...otherNumbers) {
-    
-   if( number1[0] !== undefined || number2[0] !== undefined || number3[0] !== undefined || otherNumbers[0][0] !== undefined){
-       return 'function expect a bunch of numbers, not an array or list.';
-   }
+
+  if (number1[0] !== undefined || number2[0] !== undefined || number3[0] !== undefined || (otherNumbers.length !== 0 && otherNumbers[0][0] !== undefined)) {
+    return "function expect a bunch of numbers, not an array or list.";
+  }
 
   var maximumValue = "";
   if (number1 > number2 && number1 > number3) {
@@ -15,11 +15,12 @@ function getMaximum(number1, number2, number3, ...otherNumbers) {
 
   for (let i = 0; i < otherNumbers.length; i++) {
     if (maximumValue < otherNumbers[i]) {
-        maximumValue = otherNumbers[i];
+      maximumValue = otherNumbers[i];
     }
   }
 
   return maximumValue;
 }
 
+console.log(getMaximum(1, 2,3,4,5));
 
