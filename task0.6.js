@@ -21,3 +21,4 @@ function getMaximum(number1, number2, number3, ...otherNumbers) {
 
   return maximumValue;
 }
+
