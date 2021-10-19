@@ -8,19 +8,7 @@ function getCommonLetters(word1, word2) {
       }
     }
   }
-
-  for (let i = 0; i < saveCommonLetters.length; i++) {
-    let countLetters = 0;
-    for (let j = 0; j < saveCommonLetters.length; j++) {
-      if (saveCommonLetters[i] == saveCommonLetters[j]) {
-        countLetters++;
-      }
-      if (countLetters > 1) {
-        saveCommonLetters.splice(j, 1);
-        j = j + 1;
-      }
-    }
-  }
+  saveCommonLetters = [...new Set(saveCommonLetters)];
 
   let commonLetters = "Common letters: ";
   for (let i = 0; i < saveCommonLetters.length; i++) {
